@@ -2,7 +2,13 @@
 
 ## Description
 
-Conversion de imagenes, colas y eventos
+- Crear y configurar modelos y migraciones
+- Modificar la tabla de servicios para incluir una relación con categorías.
+- Establecer relaciones entre modelos
+- Actualizar los métodos create() y edit() en el controlador de servicios para incluir categorías.
+- Modificar el formulario de creación/edición de servicios para incluir un select con las categorías.
+- Mostrar categorías en el listado de servicios
+- Actualizar la vista de listado de servicios para mostrar la categoría de cada servicio.
 
 ## Installation
 
@@ -30,25 +36,31 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 ## Desarrollo
 
-### Subida de imagen
+1. Relación en la base de datos
 
-![image](https://github.com/user-attachments/assets/06bf9666-4d22-49c9-bc10-3c26b1a1c5b4)
+![image](https://github.com/user-attachments/assets/c50cdcae-53e3-4c42-9a00-7d1f26bc98cb)
 
-notificación del evento
+2. Crear servicio con su categoría
 
-![image](https://github.com/user-attachments/assets/8906c103-3044-4fd7-9ad6-028e0822d98a)
+![image](https://github.com/user-attachments/assets/0b264502-f4a9-4245-801a-293e921ed2a4)
+![image](https://github.com/user-attachments/assets/2b62227b-14e0-46cc-b91c-8ea8f1cc02bc)
 
-### Comparacion de imagenes - Se nota la calidad diferente
+3. Lista de servicios con su relacion
 
-![image](https://github.com/user-attachments/assets/53dc2227-2c40-434f-b6f5-84bc80e1f8b8)
+![image](https://github.com/user-attachments/assets/11596bdb-a916-4720-abcb-d2992ff664be)
 
-### Funcionalidad
+![image](https://github.com/user-attachments/assets/74d37dcf-5df6-48e4-a620-b5b33831a5df)
 
-![image](https://github.com/user-attachments/assets/587dafed-929f-45da-93ce-26d6c2a2c92c)
+4. Actualizar el servicio
 
-### Captura de eventos en la base de datos
+![image](https://github.com/user-attachments/assets/ad660607-73ff-4b34-bb43-0f7979a980c1)
 
-![image](https://github.com/user-attachments/assets/35feccc5-3df4-45e9-962d-8ca19fec2507)
+5. Filtrado por categorias en los servicios
 
-![image](https://github.com/user-attachments/assets/05717291-4ba2-4cf0-8557-795859eab58a)
+![image](https://github.com/user-attachments/assets/077e1d96-f4c5-4086-8d93-ce9019aed73e)
 
+![image](https://github.com/user-attachments/assets/767f41f6-27d8-488b-ad5e-0d40998d18d5)
+
+6. Eliminar un registro
+
+![image](https://github.com/user-attachments/assets/bc5537d2-9b55-4f18-8ea7-48bcac565748)
